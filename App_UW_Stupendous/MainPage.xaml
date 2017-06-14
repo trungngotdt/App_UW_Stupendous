@@ -1,0 +1,73 @@
+﻿<Page
+    x:Class="App_UW_Stupendous.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App_UW_Stupendous"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <ResourceDictionary Source="Style.xaml"></ResourceDictionary>
+    </Page.Resources>
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.Resources>
+            <Style TargetType="Button">
+                <Setter Property="Background" Value="Black"></Setter>
+                <Setter Property="Foreground" Value="White"></Setter>
+                <Setter Property="FontSize" Value="25"></Setter>
+                <Setter Property="BorderThickness" Value="0"></Setter>
+                <Setter Property="HorizontalAlignment" Value="Stretch"></Setter>
+                <Setter Property="VerticalAlignment" Value="Stretch"></Setter>
+            </Style>
+        </Grid.Resources>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="2.6*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="*"></ColumnDefinition>
+              <ColumnDefinition Width="*"></ColumnDefinition>
+              <ColumnDefinition Width="*"></ColumnDefinition>
+              <ColumnDefinition Width="*"></ColumnDefinition>
+         </Grid.ColumnDefinitions>
+            
+         <Grid  Grid.Column="0">
+            <Button x:Name="Btn_Donuts"
+                    Content="Donuts"
+                    Tapped="Btn_Donuts_Tapped"></Button>
+        </Grid>
+        <Grid  Grid.Column="1">
+            <Button x:Name="Btn_Coffee"
+                    Content="Coffee"
+                    Tapped="Btn_Coffee_Tapped"></Button>
+        </Grid>
+        <Grid Grid.Column="2">
+            <Button x:Name="Btn_Schedule"
+                    Content="Schedule"
+                    Tapped="Btn_Schedule_Tapped"></Button>
+        </Grid>
+        <Grid  Grid.Column="3">
+            <Button x:Name="Btn_Complete"
+                    Content="Complete"
+                    Tapped="Btn_Complete_Tapped"></Button>
+        </Grid>   
+        </Grid>
+        
+           <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0" Background="Aqua"></Grid>               
+                    <Frame x:Name="rootFrame">
+                        
+                    </Frame>
+            
+            </Grid>
+           
+            
+        
+    </Grid>
+</Page>

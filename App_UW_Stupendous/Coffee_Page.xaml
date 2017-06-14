@@ -1,0 +1,84 @@
+﻿<Page
+    x:Class="App_UW_Stupendous.Coffee_Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App_UW_Stupendous"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.Resources>
+            
+        </Grid.Resources>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="3">
+            <Button x:Name="Btn_Roast"
+                    Height="70"
+                    Content="Roast"
+                    Width="150"
+                    HorizontalAlignment="Center"
+                    Margin="0,0,400,100">
+                <Button.Flyout>
+                    <MenuFlyout>
+                        <MenuFlyoutItem Text="None" Tapped="Btn_Roast_Tapped"></MenuFlyoutItem>
+                        <MenuFlyoutItem Text="Dark" Tapped="Btn_Roast_Tapped"/>
+                        <MenuFlyoutItem Text="Medium" Tapped="Btn_Roast_Tapped"/>
+                    </MenuFlyout>
+                </Button.Flyout>
+            </Button>
+            <Button Height="70"
+                    Width="150"                    
+                    x:Name="Btn_Sweetener"
+                    Content="Sweetener"
+                    HorizontalAlignment="Center"
+                    Margin="0,0,0,100">
+                <Button.Flyout>
+                    <MenuFlyout>
+                        <MenuFlyoutItem Text="None" Tapped="Btn_Sweetener_Tapped"/>
+                        <MenuFlyoutItem Text="Sugar" Tapped="Btn_Sweetener_Tapped"/>
+                    </MenuFlyout>
+                </Button.Flyout>
+            </Button>
+            <Button Height="70"
+                    Width="150"                    
+                    x:Name="Btn_Cream"
+                    Content="Cream"                    
+                    HorizontalAlignment="Center"
+                    Margin="0,0,-400,100">
+                <Button.Flyout>
+                    <MenuFlyout>
+                        <MenuFlyoutItem Text="None" Tapped="Btn_Cream_Tapped"/>
+                        <MenuFlyoutItem Text=" 2% Milk" Tapped="Btn_Cream_Tapped"/>
+                        <MenuFlyoutItem Text=" Whole Milk" Tapped="Btn_Cream_Tapped"/>
+                    </MenuFlyout>
+                </Button.Flyout>
+            </Button>
+        
+        <TextBlock Text="Coffee" 
+                   Height="50"
+                   Width="100"
+                   Margin="100,200,100,100"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Left"></TextBlock>
+        <TextBlock Text=""
+                   x:Name="Texbl_Result"
+                   Margin="0,100,0,0"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"/>
+            <Button x:Name="Btn_OK"
+                    Tapped="Btn_OK_Tapped"
+                    Content="OK"
+                    Height="50"
+                    Width="75"
+                    Margin="0,300,0,0"
+                    HorizontalAlignment="Center"></Button>
+        </Grid>
+            
+    </Grid>
+</Page>
