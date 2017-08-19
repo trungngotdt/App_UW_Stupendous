@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>d0cc03d3-9bad-473d-ac00-7f59bc58be87</PackageIdentityName>
     <PackageIdentityPublisher>CN=Tran</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Tran\Downloads\App_UW_Stupendous\App_UW_Stupendous\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Tran\Documents\New folder\App_UW_Stupendous\App_UW_Stupendous\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Tran\Downloads\App_UW_Stupendous\App_UW_Stupendous\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Tran\Documents\New folder\App_UW_Stupendous\App_UW_Stupendous\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Tran\Downloads\App_UW_Stupendous\App_UW_Stupendous\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Tran\Documents\New folder\App_UW_Stupendous\App_UW_Stupendous\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Tran\Downloads\App_UW_Stupendous\App_UW_Stupendous\bin\x86\Debug\App_UW_Stupendous.exe">
+    <AppxPackagedFile Include="C:\Users\Tran\Documents\New folder\App_UW_Stupendous\App_UW_Stupendous\bin\x86\Debug\App_UW_Stupendous.exe">
       <PackagePath>entrypoint\App_UW_Stupendous.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tran\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
@@ -370,47 +370,47 @@
     <AppxPackagedFile Include="C:\Users\Tran\.nuget\packages\System.Xml.XmlSerializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tran\Downloads\App_UW_Stupendous\App_UW_Stupendous\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Tran\Documents\New folder\App_UW_Stupendous\App_UW_Stupendous\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tran\Downloads\App_UW_Stupendous\App_UW_Stupendous\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Tran\Documents\New folder\App_UW_Stupendous\App_UW_Stupendous\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tran\Downloads\App_UW_Stupendous\App_UW_Stupendous\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Tran\Documents\New folder\App_UW_Stupendous\App_UW_Stupendous\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tran\Downloads\App_UW_Stupendous\App_UW_Stupendous\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Tran\Documents\New folder\App_UW_Stupendous\App_UW_Stupendous\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tran\Downloads\App_UW_Stupendous\App_UW_Stupendous\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Tran\Documents\New folder\App_UW_Stupendous\App_UW_Stupendous\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tran\Downloads\App_UW_Stupendous\App_UW_Stupendous\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Tran\Documents\New folder\App_UW_Stupendous\App_UW_Stupendous\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tran\Downloads\App_UW_Stupendous\App_UW_Stupendous\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Tran\Documents\New folder\App_UW_Stupendous\App_UW_Stupendous\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tran\Downloads\App_UW_Stupendous\App_UW_Stupendous\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Tran\Documents\New folder\App_UW_Stupendous\App_UW_Stupendous\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tran\Downloads\App_UW_Stupendous\App_UW_Stupendous\bin\x86\Debug\App_UW_Stupendous.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Tran\Documents\New folder\App_UW_Stupendous\App_UW_Stupendous\bin\x86\Debug\App_UW_Stupendous.xr.xml">
       <PackagePath>App_UW_Stupendous.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tran\Downloads\App_UW_Stupendous\App_UW_Stupendous\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Tran\Documents\New folder\App_UW_Stupendous\App_UW_Stupendous\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tran\Downloads\App_UW_Stupendous\App_UW_Stupendous\bin\x86\Debug\Core\App_UW_Stupendous.exe">
+    <AppxPackagedFile Include="C:\Users\Tran\Documents\New folder\App_UW_Stupendous\App_UW_Stupendous\bin\x86\Debug\Core\App_UW_Stupendous.exe">
       <PackagePath>App_UW_Stupendous.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
