@@ -126,7 +126,6 @@ C:\Users\Tran\Documents\New folder\App_UW_Stupendous\App_UW_Stupendous\bin\ARM\D
 C:\Users\Tran\Documents\New folder\App_UW_Stupendous\App_UW_Stupendous\bin\ARM\Debug\System.Xml.XDocument.dll
 C:\Users\Tran\Documents\New folder\App_UW_Stupendous\App_UW_Stupendous\bin\ARM\Debug\System.Xml.XmlDocument.dll
 C:\Users\Tran\Documents\New folder\App_UW_Stupendous\App_UW_Stupendous\bin\ARM\Debug\System.Xml.XmlSerializer.dll
-C:\Users\Tran\Documents\New folder\App_UW_Stupendous\App_UW_Stupendous\obj\ARM\Debug\App_UW_Stupendous.csprojResolveAssemblyReference.cache
 C:\Users\Tran\Documents\New folder\App_UW_Stupendous\App_UW_Stupendous\obj\ARM\Debug\App.g.i.cs
 C:\Users\Tran\Documents\New folder\App_UW_Stupendous\App_UW_Stupendous\obj\ARM\Debug\App.g.cs
 C:\Users\Tran\Documents\New folder\App_UW_Stupendous\App_UW_Stupendous\obj\ARM\Debug\Coffee_Page.g.i.cs
